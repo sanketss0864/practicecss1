@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gabarito&display=swap');
+
+body{
+    margin: 0%;
+}
+.main-nav{
+    position: fixed;
+    background-color: black;
+    left: 0;
+    right: 0;
+    width: calc(100%-55%);
+}
+.nav-items{
+    margin: 0;
+    list-style: none;
+    color: white;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Gabarito', cursive;
+}
+.nav-item{
+    display: inline; 
+    padding: 20px 20px 10px 20px;
+    text-align: left;
+}
+.nav-item:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.nav-item>a{
+        color: white;
+        text-decoration: none;
+       
+    }
+.nav-item>a:hover{
+    background-color: gainsboro;
+    color: black;
+}
+.dropdown {
+    display: inline-block;
+  }
+  .dropdown select{
+   border: none;
+   background-color: black;
+   color: white;
+   font-family: 'Gabarito', cursive;
+   font-size: 16px;
+   padding: 10px;
+  }
+  .dropdown select:hover{
+    background-color: gainsboro;
+    color: black;
+  }
+  .dropdown:hover{
+    background-color: gainsboro;
+    color: black;
+  }
+  .dropdown option{
+    background-color: white;
+    color: black;
+    left: 0;
+    width: 35px;
+  }
+  
+  .nav-items>i{
+    color: white;
+    float: right;
+    padding: 10px;
+  }
+ .nav-items>i:hover{
+    background-color: red;
+ }
+
+img {    
+height: auto;
+width: 100%;
+left: 0;
+right: 0;
+}
+.elementname {
+text-align: center;
+font-family: 'Roboto', sans-serif;
+font-size: 15px;
+}
+
+.description{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: justify;
+}
+.persons{
+    display: flex;
+    justify-content: center;
+   
+}
+.persons>div{
+    width: 150px;
+    height: auto;
+    padding: 40px;
+}
+.tourDate{
+    background-color: black;
+    text-align: center;
+    padding: 40px;
+}
+.tourDate>h1{
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 35px;
+    
+}
+.tourDate>ul{
+    color: gray;
+    background-color: rgb(255, 255, 255);
+list-style: none;
+    margin-left: 26%;
+    margin-right: 26%;
+    padding-inline-start: 0px;
+}
+.month-name{
+    text-align: start;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    border-bottom: 1px solid #ddd;
+}
+.ticket{
+    display: flex;
+    justify-content: center;
+    
+}
+.ticket>div{
+    width: 15%;
+    height: auto;
+    background-color: white;
+    margin: 10px;
+}
+.ticket-content{
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    margin: 10px;
+}
+.contact-item{
+    display: flex;
+    justify-content: center;
+}
+.logostyle{
+    color: gray;
+    padding: 2px;
+    font-size: 25px;
+}
+
+
+    
